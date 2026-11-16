@@ -1,0 +1,16 @@
+name: apiverve_naicslookup
+description: "NAICS Lookup is a NAICS code lookup and search API for the 2022 North American Industry Classification System. Look up one code or up to 500 at once, or search by keyword, and get the title, description, level, parent, hierarchy and children, while paid plans add the SBA small-business size standard, the Census index terms, cross-references and the 2017 concordance."
+version: 1.2.6
+homepage: https://apiverve.com/marketplace/naicslookup?utm_source=dart&utm_medium=referral&utm_content=homepage
+repository: https://github.com/apiverve/naicslookup-api/tree/main/dart
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  http: ^1.1.0
+  http_parser: ^4.0.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
